@@ -1,2 +1,2 @@
-Uploading Hack the Box files
-adding anotehr line
+### Personal dotfiles
+1. `bash_profile`: bash dot files
