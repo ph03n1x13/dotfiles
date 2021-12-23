@@ -88,6 +88,8 @@ echo -e "\e[1;32mWelcome $USER ....... .....! \e[1;34m"
 date | cut -d ' ' -f 1-6
 echo -en "\e[1;35m \e[5m▶ \e[25m"
 uptime -p | cut -d ' ' -f 2-
+# Weather report. Docu: https://github.com/chubin/wttr.in
+curl wttr.in/<location>?format="tmp:%c+%t-feel:%f+%m\n"
 echo -e "\e[0m"
 
 export PATH="$HOME/bin:$PATH"
